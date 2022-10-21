@@ -1,0 +1,30 @@
+
+
+<!Doctype html>
+<html>
+    <head>
+        <title>PRACTICA 0</title>
+        <style type="text/css">
+            body{
+                background-color: yellow;
+            }  
+        </style>
+    </head>
+    <body>
+        <h3>Calculadora</h3>
+        <form action = "/operacion" method = "POST">
+            <label for="Num1">Primer valor</label>
+            <input type="number" name="Num1"/> 
+            <label for="Num2">&nbsp;&nbsp;&nbsp;&nbsp;Segundo valor </label>
+            <input type="number" name="Num2"/>
+            <label for="operacionString">&nbsp;&nbsp;&nbsp;&nbsp;Operacion</label>
+            <input type="text" name="operacionString"/>
+            <input type="submit" value="calcular"/>
+        </form>
+        <p>Resultado = {{Resultado}}</p>
+
+    </body>
+
+
+
+</html>
